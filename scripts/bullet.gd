@@ -30,3 +30,4 @@ func _on_body_entered(body: Node2D) -> void:
 		blood.global_position = global_position
 	else:
 		queue_free()
+		
